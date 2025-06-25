@@ -20,3 +20,11 @@ function reverseDoublyList(head) {
     // return new head
     return next ? next.prev : null;
 }
+const list2 = new DoublyLinkedList();
+list.append(1);
+list.append(2);
+list.append(3);
+list.append(4);
+console.log("Original:", list.toArray());
+list.reverse();
+console.log("Reversed:", list.toArray());

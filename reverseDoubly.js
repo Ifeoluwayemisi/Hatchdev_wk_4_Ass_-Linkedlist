@@ -39,14 +39,14 @@ class DoublyLinkedList {
         }
     }
     //print
-    print() {
+    toArray() {
         let current = this.head;
         const result = [];
         while (current) {
             result.push(current.data);
             current = current.next;
         }
-        console.log(result.join("<->"));
+        return result;
     }
 }
 const list = new DoublyLinkedList();
@@ -54,8 +54,6 @@ list.append(1);
 list.append(2);
 list.append(3);
 list.append(4);
-console.log("Original:");
-list.print();
+console.log("Original:", list.toArray());
 list.reverse();
-console.log("Reversed:");
-list.print();
+console.log("Reversed:", list.toArray());
