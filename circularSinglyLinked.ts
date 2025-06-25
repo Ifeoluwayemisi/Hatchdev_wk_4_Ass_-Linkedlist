@@ -52,8 +52,9 @@ const slist = new CircularSingleList();
 slist.append(10);
 slist.append(20);
 slist.append(30);
-slist.append(35);
 slist.append(40);
+slist.append(45);
 slist.append(50);
+slist.append(60);
 
-console.log("Circulr List:", slist.Array());
+console.log("Circular List:", slist.Array(10));
