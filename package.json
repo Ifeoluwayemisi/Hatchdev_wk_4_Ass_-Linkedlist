@@ -1,0 +1,23 @@
+{
+  "name": "hatchdev_wk_4_ass_-linkedlist",
+  "version": "1.0.0",
+  "description": "Linkedlist Assignment And Pratice",
+  "homepage": "https://github.com/Ifeoluwayemisi/Hatchdev_wk_4_Ass_-Linkedlist#readme",
+  "bugs": {
+    "url": "https://github.com/Ifeoluwayemisi/Hatchdev_wk_4_Ass_-Linkedlist/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ifeoluwayemisi/Hatchdev_wk_4_Ass_-Linkedlist.git"
+  },
+  "license": "ISC",
+  "author": "Racheal",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
